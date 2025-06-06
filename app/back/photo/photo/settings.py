@@ -71,7 +71,7 @@ REACT_BUILD_DIR = BASE_DIR.parent / 'front' / 'build'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [REACT_BUILD_DIR],  # index.html 여기 있어야 함
+        'DIRS': [REACT_BUILD_DIR],  # React의 실제 index.html 경로
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
