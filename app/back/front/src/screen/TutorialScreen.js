@@ -8,7 +8,7 @@ const TutorialScreen = ({ onComplete }) => {
     <div class="container">
         
     <div class="left">
-        <img src={`${process.env.PUBLIC_URL}/example.png`} alt="example" />
+        <img src="/example.png" alt="example" />    
     </div>
     <div class="no-center">
     <ul><li>Please choose a frame that you like before shooting.<br/><br/></li>
