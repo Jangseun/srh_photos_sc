@@ -396,7 +396,7 @@ const PhotoFrameTest = ({ photos, frameType, onBack, title = "인생네컷" }) =
         
         <div className="section2">
           <div className="qr-section">
-            <p className="gle">Scan the QR code to save your 4 snapshots of mylife!</p>
+            <p className="gle">Scan the QR code to save your photo!</p>
             {isUploading ? (
               <div className="qr-loading">Loading...</div>
             ) : qrCodeUrl ? (
@@ -409,7 +409,7 @@ const PhotoFrameTest = ({ photos, frameType, onBack, title = "인생네컷" }) =
           </div>
           
           <button className="back-button" onClick={onBack}>
-            Return to the start {'>'}
+            start {'>'}
           </button>
         </div>
 

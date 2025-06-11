@@ -11,9 +11,9 @@ const TutorialScreen = ({ onComplete }) => {
         <img src="/example.png" alt="example" />    
     </div>
     <div class="no-center">
-    <ul><li>Please choose a frame that you like before shooting.<br/><br/></li>
-        <li>Four photos are taken every five seconds.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pose in time!<br/><br/></li>
-        <li>Print or download the completed spam four-cut<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keep it.</li>
+    <ul><li>Please choose a frame that you like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;before shooting.<br/><br/></li>
+        <li>Four photos are taken every five &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seconds. Pose in time!<br/><br/></li>
+        <li>Print or download the completed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spam four-cut, Keep it.</li>
     </ul>
     </div>
     </div>
