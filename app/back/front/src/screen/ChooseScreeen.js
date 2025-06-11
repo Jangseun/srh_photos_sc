@@ -7,7 +7,7 @@ const ChooseScreen = ({ selectFrame }) => {
   const handleFrameSelect = (frame) => {
     setSelectedFrame(frame);
   };
-
+ 
   const handleNext = () => {
     if (selectedFrame) {
       selectFrame(selectedFrame); // 선택된 프레임을 부모 컴포넌트에 전달
